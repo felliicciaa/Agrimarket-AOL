@@ -77,14 +77,14 @@ export default function ChatDetail() {
         },
       ]
     } else {
-      // Individual chat (like Emery Susanto)
+      
       return [
         {
           id: "1",
           type: "product" as const,
           product: {
             name: "Pete Raja",
-            price: "Rp 18,000",
+            price: "Rp 19,000",
             image: "/placeholder.svg?height=80&width=80",
           },
           sender: "contact",
