@@ -115,13 +115,13 @@ export default function PetaniHomepage() {
             <Text style={styles.navLabel}>Catatan</Text>
           </TouchableOpacity>
 
-          <TouchableOpacity style={styles.navItem}>
-            <View style={[styles.navIcon, { backgroundColor: "#FFF3E0" }]}>
-              <Ionicons name="folder-outline" size={24} color="#F57C00" />
-            </View>
-            <Text style={styles.navLabel}>Berkas</Text>
-          </TouchableOpacity>
-        </View>
+            <TouchableOpacity style={styles.navItem} onPress={() => router.push('/petani/kepemilikanLahan/opsi')}>
+              <View style={[styles.navIcon, { backgroundColor: "#FFF3E0" }]}>
+                <Ionicons name="folder-outline" size={24} color="#F57C00" />
+              </View>
+              <Text style={styles.navLabel}>Berkas</Text>
+            </TouchableOpacity>
+          </View>
 
         {/* Orders Section */}
         <View style={styles.ordersSection}>
